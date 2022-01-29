@@ -1,0 +1,43 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --green: rgb(71, 255, 20);
+    --red: rgb(255, 68, 68)
+}
+
+
+/* banner component start */
+
+
+/* banner component end */
+
+
+/* Heading component start */
+
+.heading {
+    min-height: 300px;
+    background-color: rgba(219, 253, 255, 0.789);
+    border-radius: 10px;
+}
+
+.balance h1 {
+    color: var(--green);
+    font-size: 60px;
+}
+
+.side_section {
+    margin: 20px 0px;
+}
+
+.income h3 {
+    color: var(--green)
+}
+
+.expense h3 {
+    color: var(--red);
+}
+
+
+/* Heading component end */
