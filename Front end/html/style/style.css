@@ -39,7 +39,7 @@ input[type=number]:focus,
 /* Heading component start */
 
 .heading {
-    min-height: 300px;
+    min-height: 250px;
     background-color: rgba(219, 253, 255, 0.789);
     border-radius: 10px;
 }
@@ -82,6 +82,7 @@ input[type=number]:focus,
     font-size: 20px;
     border-radius: 4px;
     position: relative;
+    cursor: pointer;
 }
 
 #add_lvl {
@@ -107,7 +108,7 @@ input[type=number]:focus,
 .transaction input[type="text"],
 .transaction input[type="number"] {
     margin: 5px 5px;
-    width: 300px;
+    max-width: 300px;
     height: 38px;
     outline: none;
 }
@@ -122,3 +123,30 @@ input[type=number]:focus,
 
 
 /* Transaction component end */
+
+
+/* Transaction list component start */
+
+.transaction_container {
+    height: 250px;
+    overflow-y: scroll;
+}
+
+.transaction_container::-webkit-scrollbar {
+    display: none;
+}
+
+.transaction_card {
+    background: rgba(0, 255, 0, 0.068);
+    padding: 5px 10px;
+    border-radius: 10px;
+    height: 60px;
+    width: 100%;
+}
+
+#expense_card {
+    background: rgba(255, 59, 59, 0.153);
+}
+
+
+/* Transaction list component end */
